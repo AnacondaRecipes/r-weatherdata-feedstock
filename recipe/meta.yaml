@@ -10,8 +10,8 @@ package:
 source:
   fn: weatherData_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/weatherData_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/weatherData/weatherData_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/weatherData_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/weatherData/weatherData_{{ version }}.tar.gz
   sha256: 49ff581367f13eeec1e04b9fafa4149b44660ce690dfa9c7944072034a3d40d0
 
 
